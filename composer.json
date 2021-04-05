@@ -1,0 +1,21 @@
+{
+    "name": "KulievAli/lab9-11",
+    "type": "project",
+    "license": "MIT",
+    "scripts": {
+        "post-install-cmd": "git symbolic-ref --short -q HEAD > version"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/KulievAli/lab9-11"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/rok9ru/trpo-core.git"
+        }
+    ],
+    "require": {
+        "KulievAli/laba8": "^1.0"
+    }
+}
